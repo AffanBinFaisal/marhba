@@ -1,0 +1,94 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: 400px;
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.card-body {
+  white-space: pre-wrap;
+  height: 300px;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-title {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-text {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.table {
+  font-size: 40px;
+}
+
+.navbar {
+  font-size: 50px;
+  min-height: 100px;
+}
+
+.contact {
+  width: 100%;
+}
+
+.clock {
+  font-size: 150px;
+}
+
+h2 {
+  text-align: center;
+  padding: 40px;
+  background-color: #212529;
+  color: white;
+}
+
+.brand {
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+}
+.navbar-toggler-icon {
+  font-size: 60px;
+}
+
+.links a{
+  font-size:80px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bi-whatsapp{
+  background-color: #40c340;
+  color: white;
+}
+
+.bi-youtube{
+  color:red;
+  background-color: white;
+}
+
+.bi-instagram{
+  color:#fd08bb;
+}
+
+.event{
+  display: inline-block;
+  width: 80%;
+}
+
